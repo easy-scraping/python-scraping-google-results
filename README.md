@@ -103,6 +103,6 @@ response = client.get(
 print('Response HTTP Status Code: ', response.status_code)
 print('Response HTTP Response Body: ', response.content)
 ```
-
+Google scraping API can be used to collect data from Google search results, Google Maps, Google News or Google Images.
 
   
