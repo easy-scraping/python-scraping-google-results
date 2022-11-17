@@ -1,6 +1,6 @@
 # Python Scraping API for Google results
 Google's search result scraping API allows for seamless and fast querying of the search engine. The Python code is simple to implement in your own environment. 
-Below is an example of code for scraping Google results [using the ScrapingBee API](https://www.scrapingbee.com?fpr=easy-scraping-api).
+Below is an example of code for scraping Google results [using the ScrapingBee API](https://www.scrapingbee.com/features/google/?fpr=easy-scraping-api).
 ```
   import requests
   def send_request():
@@ -78,7 +78,7 @@ Below is an example of code for scraping Google results [using the ScrapingBee A
 ## Customizable Python scraped google results 
 
 The API is flexible, it rotates user-agents by itself, and you can also set geolocation, as well as language depending on which search engine you want to retrieve data from. This reduces the risk of responses returning an error. 
-[Check out the demo](https://www.scrapingbee.com?fpr=easy-scraping-api).
+[Check out the demo](https://www.scrapingbee.com/features/google/?fpr=easy-scraping-api).
 ```
 import urllib.parse
 encoded_url = urllib.parse.quote("YOUR SEARCH TO SCRAPE")
@@ -88,7 +88,7 @@ The Python scraping API also allows you to personalize the number of results in 
 
 ## Extract Google search data using CSS selector and Python
 
-If you want to retrieve data without parsing on your side, you can take advantage of Google's result extraction capability via [API Call](https://www.scrapingbee.com?fpr=easy-scraping-api). 
+If you want to retrieve data without parsing on your side, you can take advantage of Google's result extraction capability via [API Call](https://www.scrapingbee.com/features/google/?fpr=easy-scraping-api). 
 
 ```
 from scrapingbee import ScrapingBeeClient
